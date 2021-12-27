@@ -1,5 +1,6 @@
 # base-docker-django-user-api
-This project allows to store your book list and manage them
+This project includes base docker, django rest framework and abstract user configuration
+
 ## Tech Stack
 
 **Core Tech:** Python
