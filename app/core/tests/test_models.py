@@ -1,9 +1,5 @@
-from unittest.mock import patch
-
 from django.test import TestCase
 from django.contrib.auth import get_user_model
-
-from core import models
 
 
 def sample_user(email='test@example.com', password='testpass'):
@@ -50,5 +46,3 @@ class ModelTests(TestCase):
 
         self.assertTrue(user.is_superuser)
         self.assertTrue(user.is_staff)
-
-    

@@ -1,12 +1,8 @@
-import uuid
-import os
 from django.db import models
 
 # if we want to use extended user model, we must import following modules
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, \
                                             PermissionsMixin
-from django.conf import settings
-
 
 
 """
