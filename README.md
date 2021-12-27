@@ -1,4 +1,4 @@
-# store-your-books
+# base-docker-django-user-api
 This project allows to store your book list and manage them
 ## Tech Stack
 
